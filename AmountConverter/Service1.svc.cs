@@ -9,16 +9,11 @@ namespace AmountConverter
         {
             var val = amount.Replace(" ", "").Replace(",", ".");
 
-            if (val.Count(a => a == '.') > 1)
+            if (val.Count(a => a == '.') > 1 || !decimal.TryParse(val, out decimal result))
             {
                 return "Invalid Amount";
             }
-
-            if (!decimal.TryParse(val, out decimal result))
-            {
-                return  "Invalid Amount";                
-            }
-
+             
             if (double.Parse(val) > 999999999.99 || double.Parse(val) < 0)
             {
                 return "Please enter a valid Amount between 0 and 999 999 999,99";

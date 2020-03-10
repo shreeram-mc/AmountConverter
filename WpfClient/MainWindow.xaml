@@ -13,16 +13,18 @@
             </StackPanel>
 
             <StackPanel Margin="10,10,10,10" Width="400" HorizontalAlignment="Left">
-                <Label>Enter any Amount between 0 and 999 999 999,99</Label>
                 <Border Padding="0" >
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Label Margin="0">Enter any Amount between 0 and 999 999 999,99</Label>
+                </Border>
+                <Border Padding="0" >
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,10,0,10">
                         <TextBox  Name="txtInput" VerticalAlignment="Center" TextAlignment="Left" Width="250" HorizontalAlignment="Left" Height="30" FontSize="20" VerticalContentAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 
-                <Border Padding="0">
+                <Border Padding="0,10,0,10">
                         <StackPanel>                           
-                            <TextBlock Name="txtResult" FontSize="15" FontFamily="San serif" FontWeight="SemiBold"  Text="Result:" TextWrapping="WrapWithOverflow" Height="60" />
+                            <TextBlock Name="txtResult" FontSize="15" FontFamily="San serif" FontWeight="SemiBold"  Text="Result: " TextWrapping="WrapWithOverflow" Height="60" />
                         </StackPanel>
                 </Border>
 
