@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmountConverter", "AmountConverter\AmountConverter.csproj", "{8288AC92-B827-4E08-8221-D39D3E9FC514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfClient", "WpfClient\WpfClient.csproj", "{0971DDB4-F6A7-4580-B35D-97B53547B697}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8288AC92-B827-4E08-8221-D39D3E9FC514} = {8288AC92-B827-4E08-8221-D39D3E9FC514}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8288AC92-B827-4E08-8221-D39D3E9FC514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8288AC92-B827-4E08-8221-D39D3E9FC514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8288AC92-B827-4E08-8221-D39D3E9FC514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8288AC92-B827-4E08-8221-D39D3E9FC514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0971DDB4-F6A7-4580-B35D-97B53547B697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0971DDB4-F6A7-4580-B35D-97B53547B697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0971DDB4-F6A7-4580-B35D-97B53547B697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0971DDB4-F6A7-4580-B35D-97B53547B697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56191C5A-1576-42B9-8C55-9C6BC871F00F}
+	EndGlobalSection
+EndGlobal
